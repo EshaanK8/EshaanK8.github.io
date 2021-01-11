@@ -1,7 +1,137 @@
 <!DOCTYPE html>
 <html>
+<head>
+<title>Eshaan Kunchur Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link href="features.css" rel="stylesheet" type="text/css" />
+<link href="homepage-add.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@200&display=swap" rel="stylesheet">
+<link href="footer.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+</script>
+<meta property="og:image" content="https://tripito-app.github.io/Images/logo.png"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://tripito-app.github.io/homepage.html"/>
+<meta property="og:title" content="Tripito"/>
+<meta property="og:description" content="Welcome to Tripito!"/>
+</head>
+
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <div class="main">
+        <!-----NavigationBar----->
+        <section id="nav-bar">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" id="a0" href="#about" style="font-family: Commissioner, sans-serif;">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="a1" href="#projects" style="font-family: Commissioner, sans-serif;">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="a2" href="#contact" style="font-family: Commissioner, sans-serif;">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </a>
+            </nav>
+        </section>
+            <script type="text/javascript" src="darkmode.js"></script>
+        
+        <div class="title">
+            <h1 id="titleText" class="headerText">Eshaan Kunchur</h1>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="divAboutText">
+            <h2 id="aboutText" class="headerText">About</h2>
+        </div>
+        <div class="divAboutP">
+            <p id="aboutP">Highly motivated, team-oriented first-year student at the University of Ottawa pursuing a degree in Software Engineering</p>
+        </div>
+        <div class="divTechProfile">
+            <h3 id="techProfile">Technical Profile</h2>
+        </div>
+        <div class="divSkills">
+            <p class="languages"><strong>Languages:</strong> Python, Java, JavaScript, HTML/CSS, Arduino</p>
+            <p class="frameworks"><strong>Frameworks:</strong> React, React Native</p>
+            <p class="tools"><strong>Tools:</strong> AutoCAD, GIT</p>
+        </div>
+    </div>
+
+    <div id="projects">
+        <div class="divProjectsText">
+            <h2 id="projectsText" class="headerText">Projects</h2>
+        </div>
+        <div class="projectsGrid">
+            <div class="project1">
+                <div class="projects1ImageBox">
+                    <image id="projects1aImage" src="./Assets/NoteStanding1.gif";/>
+                    <image id="projects1bImage" src="./Assets/NoteStanding2.gif";/>
+                    <image id="projects1cImage" src="./Assets/NoteStanding3.gif";/>
+                </div>
+                
+                <div class="projectsHeaderBox">
+                    <Text class="projectsHeaderRight">NoteStanding</Text>
+                    <p class="projectsPRight"> Multiplatform (iOS and Android) Notes App made with React Native</p>
+                    <form  action="https://github.com/EshaanK8/NoteStanding" method="get">
+                        <button class="pure-material-button-contained">Check It Out</button>
+                    </form>
+                </div>
+            </div>
+            <div class="project2">
+                <div class="projectsImageBox"><image id="projects2Image" src="./Assets/tank.png";/></div>
+                <div class="projectsHeaderBox">
+                    <Text class="projectsHeaderLeft">Tank Wars</Text>
+                    <p class="projectsPLeft">Multiplayer Java tank game where players duel in a 1v1 style matchup</p>
+                    <form  action="https://github.com/EshaanK8/Tank-Wars" method="get">
+                        <button class="pure-material-button-contained">Check It Out</button>
+                    </form>
+                </div>
+            </div>
+            <div class="project3">
+                <div class="projectsImageBox"><image id="projects3Image" src="./Assets/Calorie1.gif";/></div>
+                <div class="projectsHeaderBox">
+                    <Text id="HealthText">HealthGPS</Text>
+                    <p id="HealthP">Calculates the BMI and caloric needs of the user</p>
+                    <form  action="https://github.com/EshaanK8/HealthGPS" method="get">
+                        <button class="pure-material-button-contained">Check It Out</button>
+                    </form>
+                </div>
+            </div>
+            <div class="project4">
+                <div class="projectsImageBox"><image id="projects4Image" src="./Assets/Tripito.png";/></div>
+                <div class="projectsHeaderBox">
+                    <Text class="projectsHeaderLeft" id="TripitoHeader">Tripito</Text>
+                    <p class="projectsPLeft" id="TripitoP">Travel website made for a hypothetical travel service</p>
+                    <form  action="https://github.com/EshaanK8/Tripito" method="get">
+                        <button class="pure-material-button-contained">Check It Out</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="contact">
+        <div class="divContactText">
+            <h2 id="contactText" class="headerText">Contact</h2>
+        </div>
+        <div class="divContactP">
+            <p id="contactP">You can reach me at ekunchur@gmail.com</p>
+            <p class="email"><strong>Github:</strong> <a href="https://github.com/EshaanK8">https://github.com/EshaanK8</a></p>
+            <p class="email"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/eshaankunchur/">https://www.linkedin.com/in/eshaankunchur/</a></p>
+            
+        </div>
+    </div>
 </body>
 </html>
